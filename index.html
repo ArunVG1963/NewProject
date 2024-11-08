@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <div class="center">
+        <!-- Give a proper heading-->
+        <div class="header">
+            <h1 id="Shelly">
+                Shelly
+            </h1>
+        </div>
+        <div class="flip-card" onmouseover="expandit()">
+            <div class="flip-card-inner">
+                <div class="flip-card-front">
+                    <video autoplay muted loop id="myVideo">
+                        <source src="assets/images/7118109-uhd_2160_3840_25fps.mp4" type="video/mp4">
+                        Your browser does not support HTML5 video.
+                    </video>
+                    <img src="assets/images/istockphoto-1397892955-612x612.jpg" alt="picture"
+                        style="width:300px;height:300px;">
+                </div>
+                <div class="flip-card-back">
+                    <h1>All of us</h1>
+                    <p> Wish you the best</p>
+                    <img src="assets/images/download.jpeg" alt="picture"
+                        style="width:300px;height:300px;">
+                </div>
+            </div>
+            <script>
+                function expandit() {
+                    document.getElementById("Shelly").classList.toggle("shelly");
+                    document.getElementById("Shelly").innerText = "Thanks for all your guideance and help";
+                }
+            </script>
+
+        </div>
+</body>
+
+</html>
