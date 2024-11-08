@@ -43,6 +43,7 @@ background: linear-gradient(90deg, rgb(156, 152, 223) 0%, rgba(9,9,121,1) 35%, r
     height: 350px;
     perspective: 1000px;
     cursor: pointer;
+    border-radius: 5px;
   }
   
   .flip-card-inner {
@@ -96,6 +97,7 @@ background: linear-gradient(90deg, rgb(156, 152, 223) 0%, rgba(9,9,121,1) 35%, r
     align-items: center;
     justify-content: space-evenly;
     flex: auto;
+    flex-direction: column;
   }
   .header {
     border-color: black;
